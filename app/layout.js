@@ -66,6 +66,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <div className="container mx-auto">{children}</div>
+        <div id="modal-root-content" />
       </body>
     </html>
   );
